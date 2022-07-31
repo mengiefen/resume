@@ -3,8 +3,14 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  background-color: #f9f9f9;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
-  width: 100vw;
-  height: 100vh;
+  min-height: 3508px;
+  width: 90%;
+  position: relative;
+  padding: 10px 0;
 }
